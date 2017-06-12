@@ -1,0 +1,7 @@
+1. caldist.py is a python script to calculate the distance of key residue and substrate
+
+2. index.ndx is a index file including the index of binding site and substrate
+   >> gmx grompp -f md2.mdp -c confout_pre.gro -t state_pre.cpt -p ../topol.top -n index.ndx
+   >> gmx mdrun -nb cpu -rerun trajfull.xtc -e bind_sub.edr
+   >> echo 50 51 52 53 |$gmx'/g_energy' -f bind_sub.edr -o bind_sub.xvg > bind_sub.dat
+

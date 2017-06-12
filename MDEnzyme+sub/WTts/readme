@@ -1,0 +1,3 @@
+gmx grompp -f md.mdp -c confoutsmd.gro -t statesmd.cpt -p topol.top -o WTts.tpr
+gmx mdrun -deffnm WTts
+
