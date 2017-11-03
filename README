@@ -1,10 +1,11 @@
 CypAcatalysis_input
+-------------------
 
-contains all input file for the lab publication on the topic of "Changes in fast active site dynamics are sufficient to explain allosteric effects in the Cyclophilin A S99T"
+Contains all input file for the lab publication on the topic of "Allosteric effects in a catalytically impaired variant of Cyclophilin A are unrelated to millisecond time scale motions"
 
 - MDEnzyme+nosub contains the input files for 200-ns MD simulation free wild type(WT) and S99T muntant
 - MDEnzyme+sub contains the input files for 200-ns MD simulation of WT+cis-AAPF, WT+trans-AAPF, WT+ts-AAPF, S99T+cis-AAPF, S99T+trans-AAPF, S99T+ts-AAPF
 
 - Umbrella sampling contains the input file for umbrella sampling simulation of AAPF in water, WT+AAPF and S99T+AAPF
-
+- MSM Analysis contains dihedral trajectories and a jupyter notebook for the active site side chain MSM analysis. 
 
