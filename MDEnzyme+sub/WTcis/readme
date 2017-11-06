@@ -1,3 +1,0 @@
-gmx grompp -f md.mdp -c confoutA0_5.gro -t stateA0_5.cpt -p topol.top -o WTcis.tpr
-gmx mdrun -deffnm WTcis
-
