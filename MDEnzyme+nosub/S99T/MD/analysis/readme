@@ -1,4 +1,0 @@
-1.  plumed.dat is a imput file to  calculate dihedral angle of F113, R55, M61, T99
-   >>  plumed driver --plumed plumed.dat --mf_xtc ../S99Tnosub.xtc
-
-

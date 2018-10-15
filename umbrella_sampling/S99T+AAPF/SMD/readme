@@ -1,3 +1,0 @@
-
-1. gmx grompp -c MDS99T.gro -t MDS99T.cpt -p topol.top -f grompp.mdp
-2. mdrun_mpi -plumed plumed.dat

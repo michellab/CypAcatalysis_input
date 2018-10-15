@@ -1,7 +1,0 @@
-1. calculate the center of mass of proline ring and hydrophobic pocket 
-     >> plumed driver --plumed plumed.dat --mf_xtc ../S99Tts.xtc
-2. calculate rmsf 
-     >> echo 18 |g_rmsf -s ../WTts.tpr -f ../S99Tts.xtc -o rmsfpro.xvg -oq rmsfpro.pdb -nores -n index.ndx -fit -res
-
-
-
