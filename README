@@ -1,0 +1,21 @@
+CypAcatalysis_input
+-------------------
+
+Contains all input file for the publication on the topic of "Allosteric effects in catalytic impaired variants of the enzyme Cyclophilin A may be explained by changes in nano-microsecond time scale motions".
+
+Link to publication will appear here shortly. 
+
+- MDEnzyme+nosub contains the input files for 200-ns MD simulation free wild type(WT) and mutants (ST, STCS, STCSIV)
+- MDEnzyme+sub contains the input files for 200-ns MD simulation of WT+cis-AAPF, WT+trans-AAPF, WT+ts-AAPF, S99T+cis-AAPF, S99T+trans-AAPF, S99T+ts-AAPF
+
+- Umbrella sampling contains the input file for umbrella sampling simulation of 'in' and 'out' conformations of CypA complexed (
+AAPF in water, WT+AAPF, ST+AAPF, STCS+AAPF, STCSIV+AAPF )
+
+- MSM Analysis contains three jupyter notebooks:
+
+  01_getting_dihedrals.ipynb for reading trajectory files and compute the dihedral trajectories of the selected side chain amino acids in the active site.
+
+  02_Clustering.ipynb for reading the dihedral trajectories and clustering these input data to genterate discrete trajectories
+ 
+dihedral trajectories and a jupyter notebook for the active site side chain MSM analysis. 
+  03_MSM_ALL_analysis.ipynb for reading the input discrete trajectories and computing the Bayesian MSM analysis.
